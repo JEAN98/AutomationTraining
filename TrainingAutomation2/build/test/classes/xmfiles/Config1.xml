@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="AutomationTraining">
+   <parameter name="browser" value="chrome"/>
+   <parameter name="startURL" value="http://192.168.0.103:86/"/>
+   <parameter name="driverType" value="localdriver"/>
+
+    <test name="AutomationTrainingXml">
+        <classes>
+         <class name="test.HomeTest"/> 
+         <class name="test.LoginTest"/> 
+         <class name="test.RegisterTest"/> 
+         <class name="test.BrowseCategoriesTest"/> 
+         <class name="test.PostAnAdTest"/>  
+         <class name="test.MyAdsProfileTest"/> 
+       </classes>
+    </test>
+</suite>

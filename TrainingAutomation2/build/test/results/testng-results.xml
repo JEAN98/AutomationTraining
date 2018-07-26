@@ -1,0 +1,709 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="18" passed="18">
+  <reporter-output>
+  </reporter-output>
+  <suite name="AutomationTraining" duration-ms="149996" started-at="2018-07-26T15:44:32Z" finished-at="2018-07-26T15:47:02Z">
+    <groups>
+    </groups>
+    <test name="RemoteDriver" duration-ms="149996" started-at="2018-07-26T15:44:32Z" finished-at="2018-07-26T15:47:02Z">
+      <class name="test.RegisterTest">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:test.RegisterTest@6f79caec]" name="setUpClass" is-config="true" duration-ms="0" started-at="2018-07-26T09:44:32Z" finished-at="2018-07-26T09:44:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="setUpDriver(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.RegisterTest@6f79caec]" name="setUpDriver" is-config="true" duration-ms="15696" started-at="2018-07-26T09:44:32Z" finished-at="2018-07-26T09:44:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://192.168.0.103:86/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[remotedriver]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method status="PASS" signature="testVerifyErrorByDiferentPasword()[pri:0, instance:test.RegisterTest@6f79caec]" name="testVerifyErrorByDiferentPasword" duration-ms="2623" started-at="2018-07-26T09:44:47Z" finished-at="2018-07-26T09:44:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyErrorByDiferentPasword -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.RegisterTest@6f79caec]" name="tearDown" is-config="true" duration-ms="802" started-at="2018-07-26T09:44:50Z" finished-at="2018-07-26T09:44:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:test.RegisterTest@6f79caec]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-07-26T09:44:50Z" finished-at="2018-07-26T09:44:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="setUpDriver(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.RegisterTest@6f79caec]" name="setUpDriver" is-config="true" duration-ms="5224" started-at="2018-07-26T09:44:51Z" finished-at="2018-07-26T09:44:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://192.168.0.103:86/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[remotedriver]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method status="PASS" signature="testVerifyErrorByUserNameTaken(entities.PersonRegister)[pri:0, instance:test.RegisterTest@6f79caec]" name="testVerifyErrorByUserNameTaken" duration-ms="2755" started-at="2018-07-26T09:44:56Z" data-provider="CreateValidUserJson" finished-at="2018-07-26T09:44:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[entities.PersonRegister@4b61d0c6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyErrorByUserNameTaken -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.RegisterTest@6f79caec]" name="tearDown" is-config="true" duration-ms="746" started-at="2018-07-26T09:44:59Z" finished-at="2018-07-26T09:45:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:test.RegisterTest@6f79caec]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-07-26T09:44:59Z" finished-at="2018-07-26T09:44:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="setUpDriver(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.RegisterTest@6f79caec]" name="setUpDriver" is-config="true" duration-ms="8373" started-at="2018-07-26T09:45:00Z" finished-at="2018-07-26T09:45:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://192.168.0.103:86/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[remotedriver]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method status="PASS" signature="testVerifyErrorByUserNameTaken(entities.PersonRegister)[pri:0, instance:test.RegisterTest@6f79caec]" name="testVerifyErrorByUserNameTaken" duration-ms="1970" started-at="2018-07-26T09:45:08Z" data-provider="CreateValidUserJson" finished-at="2018-07-26T09:45:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[entities.PersonRegister@26bbe604]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyErrorByUserNameTaken -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:test.RegisterTest@6f79caec]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-07-26T09:45:10Z" finished-at="2018-07-26T09:45:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.RegisterTest@6f79caec]" name="tearDown" is-config="true" duration-ms="771" started-at="2018-07-26T09:45:10Z" finished-at="2018-07-26T09:45:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUpDriver(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.RegisterTest@6f79caec]" name="setUpDriver" is-config="true" duration-ms="5421" started-at="2018-07-26T09:45:11Z" finished-at="2018-07-26T09:45:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://192.168.0.103:86/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[remotedriver]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method status="PASS" signature="testVerifyErrorByUserNameTaken(entities.PersonRegister)[pri:0, instance:test.RegisterTest@6f79caec]" name="testVerifyErrorByUserNameTaken" duration-ms="2061" started-at="2018-07-26T09:45:16Z" data-provider="CreateValidUserJson" finished-at="2018-07-26T09:45:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[entities.PersonRegister@53a50b0a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyErrorByUserNameTaken -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:test.RegisterTest@6f79caec]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-07-26T09:45:18Z" finished-at="2018-07-26T09:45:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.RegisterTest@6f79caec]" name="tearDown" is-config="true" duration-ms="864" started-at="2018-07-26T09:45:18Z" finished-at="2018-07-26T09:45:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUpDriver(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.RegisterTest@6f79caec]" name="setUpDriver" is-config="true" duration-ms="4484" started-at="2018-07-26T09:45:19Z" finished-at="2018-07-26T09:45:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://192.168.0.103:86/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[remotedriver]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method status="PASS" signature="testVerifyErrorByUserNameTaken(entities.PersonRegister)[pri:0, instance:test.RegisterTest@6f79caec]" name="testVerifyErrorByUserNameTaken" duration-ms="1413" started-at="2018-07-26T09:45:24Z" data-provider="CreateValidUserJson" finished-at="2018-07-26T09:45:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[entities.PersonRegister@7d1cb59f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyErrorByUserNameTaken -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.RegisterTest@6f79caec]" name="tearDown" is-config="true" duration-ms="782" started-at="2018-07-26T09:45:25Z" finished-at="2018-07-26T09:45:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:test.RegisterTest@6f79caec]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-07-26T09:45:25Z" finished-at="2018-07-26T09:45:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="setUpDriver(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.RegisterTest@6f79caec]" name="setUpDriver" is-config="true" duration-ms="5314" started-at="2018-07-26T09:45:26Z" finished-at="2018-07-26T09:45:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://192.168.0.103:86/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[remotedriver]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method status="PASS" signature="testVerifyErrorByUserNameTaken(entities.PersonRegister)[pri:0, instance:test.RegisterTest@6f79caec]" name="testVerifyErrorByUserNameTaken" duration-ms="1402" started-at="2018-07-26T09:45:31Z" data-provider="CreateValidUserJson" finished-at="2018-07-26T09:45:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[entities.PersonRegister@3c116f26]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyErrorByUserNameTaken -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.RegisterTest@6f79caec]" name="tearDown" is-config="true" duration-ms="1021" started-at="2018-07-26T09:45:32Z" finished-at="2018-07-26T09:45:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:test.RegisterTest@6f79caec]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-07-26T09:45:32Z" finished-at="2018-07-26T09:45:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="setUpDriver(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.RegisterTest@6f79caec]" name="setUpDriver" is-config="true" duration-ms="5131" started-at="2018-07-26T09:45:33Z" finished-at="2018-07-26T09:45:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://192.168.0.103:86/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[remotedriver]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method status="PASS" signature="testVerifyErrorByUserNameTaken(entities.PersonRegister)[pri:0, instance:test.RegisterTest@6f79caec]" name="testVerifyErrorByUserNameTaken" duration-ms="1792" started-at="2018-07-26T09:45:39Z" data-provider="CreateValidUserJson" finished-at="2018-07-26T09:45:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[entities.PersonRegister@2148b47e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyErrorByUserNameTaken -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.RegisterTest@6f79caec]" name="tearDown" is-config="true" duration-ms="945" started-at="2018-07-26T09:45:40Z" finished-at="2018-07-26T09:45:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:test.RegisterTest@6f79caec]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-07-26T09:45:40Z" finished-at="2018-07-26T09:45:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="setUpDriver(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.RegisterTest@6f79caec]" name="setUpDriver" is-config="true" duration-ms="5051" started-at="2018-07-26T09:45:41Z" finished-at="2018-07-26T09:45:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://192.168.0.103:86/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[remotedriver]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method status="PASS" signature="testVerifyErrorByUserNameTaken(entities.PersonRegister)[pri:0, instance:test.RegisterTest@6f79caec]" name="testVerifyErrorByUserNameTaken" duration-ms="1395" started-at="2018-07-26T09:45:46Z" data-provider="CreateValidUserJson" finished-at="2018-07-26T09:45:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[entities.PersonRegister@5825932c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyErrorByUserNameTaken -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:test.RegisterTest@6f79caec]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-07-26T09:45:48Z" finished-at="2018-07-26T09:45:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.RegisterTest@6f79caec]" name="tearDown" is-config="true" duration-ms="904" started-at="2018-07-26T09:45:48Z" finished-at="2018-07-26T09:45:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUpDriver(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.RegisterTest@6f79caec]" name="setUpDriver" is-config="true" duration-ms="4932" started-at="2018-07-26T09:45:49Z" finished-at="2018-07-26T09:45:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://192.168.0.103:86/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[remotedriver]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method status="PASS" signature="testVerifyErrorByUserNameTaken(entities.PersonRegister)[pri:0, instance:test.RegisterTest@6f79caec]" name="testVerifyErrorByUserNameTaken" duration-ms="1736" started-at="2018-07-26T09:45:54Z" data-provider="CreateValidUserJson" finished-at="2018-07-26T09:45:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[entities.PersonRegister@1be15455]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyErrorByUserNameTaken -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:test.RegisterTest@6f79caec]" name="afterTest" is-config="true" duration-ms="1" started-at="2018-07-26T09:45:55Z" finished-at="2018-07-26T09:45:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.RegisterTest@6f79caec]" name="tearDown" is-config="true" duration-ms="1018" started-at="2018-07-26T09:45:55Z" finished-at="2018-07-26T09:45:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUpDriver(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.RegisterTest@6f79caec]" name="setUpDriver" is-config="true" duration-ms="5360" started-at="2018-07-26T09:45:56Z" finished-at="2018-07-26T09:46:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://192.168.0.103:86/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[remotedriver]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method status="PASS" signature="testVerifyErrorByUserNameTaken(entities.PersonRegister)[pri:0, instance:test.RegisterTest@6f79caec]" name="testVerifyErrorByUserNameTaken" duration-ms="1763" started-at="2018-07-26T09:46:02Z" data-provider="CreateValidUserJson" finished-at="2018-07-26T09:46:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[entities.PersonRegister@6b886e86]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyErrorByUserNameTaken -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:test.RegisterTest@6f79caec]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-07-26T09:46:04Z" finished-at="2018-07-26T09:46:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.RegisterTest@6f79caec]" name="tearDown" is-config="true" duration-ms="727" started-at="2018-07-26T09:46:04Z" finished-at="2018-07-26T09:46:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUpDriver(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.RegisterTest@6f79caec]" name="setUpDriver" is-config="true" duration-ms="5395" started-at="2018-07-26T09:46:04Z" finished-at="2018-07-26T09:46:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://192.168.0.103:86/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[remotedriver]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method status="PASS" signature="testVerifyErrorByUserNameTaken(entities.PersonRegister)[pri:0, instance:test.RegisterTest@6f79caec]" name="testVerifyErrorByUserNameTaken" duration-ms="1728" started-at="2018-07-26T09:46:10Z" data-provider="CreateValidUserJson" finished-at="2018-07-26T09:46:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[entities.PersonRegister@5b1378cf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyErrorByUserNameTaken -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:test.RegisterTest@6f79caec]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-07-26T09:46:11Z" finished-at="2018-07-26T09:46:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.RegisterTest@6f79caec]" name="tearDown" is-config="true" duration-ms="833" started-at="2018-07-26T09:46:11Z" finished-at="2018-07-26T09:46:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUpDriver(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.RegisterTest@6f79caec]" name="setUpDriver" is-config="true" duration-ms="5349" started-at="2018-07-26T09:46:12Z" finished-at="2018-07-26T09:46:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://192.168.0.103:86/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[remotedriver]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method status="PASS" signature="testVerifyRegisterLoad()[pri:0, instance:test.RegisterTest@6f79caec]" name="testVerifyRegisterLoad" duration-ms="1016" started-at="2018-07-26T09:46:18Z" finished-at="2018-07-26T09:46:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyRegisterLoad -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:test.RegisterTest@6f79caec]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-07-26T09:46:19Z" finished-at="2018-07-26T09:46:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.RegisterTest@6f79caec]" name="tearDown" is-config="true" duration-ms="723" started-at="2018-07-26T09:46:19Z" finished-at="2018-07-26T09:46:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUpDriver(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.RegisterTest@6f79caec]" name="setUpDriver" is-config="true" duration-ms="5481" started-at="2018-07-26T09:46:19Z" finished-at="2018-07-26T09:46:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://192.168.0.103:86/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[remotedriver]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method status="PASS" signature="verifyAllErrorMessagesDisplayedByEmptyInputs()[pri:0, instance:test.RegisterTest@6f79caec]" name="verifyAllErrorMessagesDisplayedByEmptyInputs" duration-ms="1798" started-at="2018-07-26T09:46:25Z" finished-at="2018-07-26T09:46:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAllErrorMessagesDisplayedByEmptyInputs -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:test.RegisterTest@6f79caec]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-07-26T09:46:27Z" finished-at="2018-07-26T09:46:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.RegisterTest@6f79caec]" name="tearDown" is-config="true" duration-ms="777" started-at="2018-07-26T09:46:27Z" finished-at="2018-07-26T09:46:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:test.RegisterTest@6f79caec]" name="tearDownClass" is-config="true" duration-ms="1" started-at="2018-07-26T09:46:27Z" finished-at="2018-07-26T09:46:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- test.RegisterTest -->
+      <class name="test.LoginTest">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:test.LoginTest@de0a01f]" name="setUpClass" is-config="true" duration-ms="0" started-at="2018-07-26T09:46:27Z" finished-at="2018-07-26T09:46:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="setUpDriver(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.LoginTest@de0a01f]" name="setUpDriver" is-config="true" duration-ms="5102" started-at="2018-07-26T09:46:27Z" finished-at="2018-07-26T09:46:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://192.168.0.103:86/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[remotedriver]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method status="PASS" signature="testSendInValidCredentials()[pri:0, instance:test.LoginTest@de0a01f]" name="testSendInValidCredentials" duration-ms="1205" started-at="2018-07-26T09:46:32Z" finished-at="2018-07-26T09:46:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSendInValidCredentials -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:test.LoginTest@de0a01f]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-07-26T09:46:34Z" finished-at="2018-07-26T09:46:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.LoginTest@de0a01f]" name="tearDown" is-config="true" duration-ms="771" started-at="2018-07-26T09:46:34Z" finished-at="2018-07-26T09:46:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUpDriver(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.LoginTest@de0a01f]" name="setUpDriver" is-config="true" duration-ms="4886" started-at="2018-07-26T09:46:34Z" finished-at="2018-07-26T09:46:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://192.168.0.103:86/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[remotedriver]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method status="PASS" signature="testSendValidCredentials()[pri:0, instance:test.LoginTest@de0a01f]" name="testSendValidCredentials" duration-ms="1313" started-at="2018-07-26T09:46:39Z" finished-at="2018-07-26T09:46:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSendValidCredentials -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:test.LoginTest@de0a01f]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-07-26T09:46:41Z" finished-at="2018-07-26T09:46:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.LoginTest@de0a01f]" name="tearDown" is-config="true" duration-ms="724" started-at="2018-07-26T09:46:41Z" finished-at="2018-07-26T09:46:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUpDriver(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.LoginTest@de0a01f]" name="setUpDriver" is-config="true" duration-ms="5178" started-at="2018-07-26T09:46:41Z" finished-at="2018-07-26T09:46:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://192.168.0.103:86/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[remotedriver]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method status="PASS" signature="testVerifyPageLoadLogin()[pri:0, instance:test.LoginTest@de0a01f]" name="testVerifyPageLoadLogin" duration-ms="732" started-at="2018-07-26T09:46:47Z" finished-at="2018-07-26T09:46:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyPageLoadLogin -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:test.LoginTest@de0a01f]" name="afterTest" is-config="true" duration-ms="1" started-at="2018-07-26T09:46:47Z" finished-at="2018-07-26T09:46:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.LoginTest@de0a01f]" name="tearDown" is-config="true" duration-ms="709" started-at="2018-07-26T09:46:47Z" finished-at="2018-07-26T09:46:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:test.LoginTest@de0a01f]" name="tearDownClass" is-config="true" duration-ms="0" started-at="2018-07-26T09:46:48Z" finished-at="2018-07-26T09:46:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- test.LoginTest -->
+      <class name="test.HomeTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:test.HomeTest@46f5f779]" name="beforeTest" is-config="true" duration-ms="51" started-at="2018-07-26T09:44:32Z" finished-at="2018-07-26T09:44:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:test.HomeTest@46f5f779]" name="setUpClass" is-config="true" duration-ms="1" started-at="2018-07-26T09:46:48Z" finished-at="2018-07-26T09:46:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="setUpDriver(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.HomeTest@46f5f779]" name="setUpDriver" is-config="true" duration-ms="5728" started-at="2018-07-26T09:46:48Z" finished-at="2018-07-26T09:46:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://192.168.0.103:86/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[remotedriver]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method status="PASS" signature="verifyHomePageLoadWhenAppLoading()[pri:0, instance:test.HomeTest@46f5f779]" name="verifyHomePageLoadWhenAppLoading" duration-ms="411" started-at="2018-07-26T09:46:54Z" finished-at="2018-07-26T09:46:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageLoadWhenAppLoading -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:test.HomeTest@46f5f779]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-07-26T09:46:54Z" finished-at="2018-07-26T09:46:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.HomeTest@46f5f779]" name="tearDown" is-config="true" duration-ms="700" started-at="2018-07-26T09:46:54Z" finished-at="2018-07-26T09:46:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUpDriver(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.HomeTest@46f5f779]" name="setUpDriver" is-config="true" duration-ms="5133" started-at="2018-07-26T09:46:55Z" finished-at="2018-07-26T09:47:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://192.168.0.103:86/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[remotedriver]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method status="PASS" signature="verifyHomePageLoadWhenClickNavMenu()[pri:0, instance:test.HomeTest@46f5f779]" name="verifyHomePageLoadWhenClickNavMenu" duration-ms="1008" started-at="2018-07-26T09:47:00Z" finished-at="2018-07-26T09:47:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageLoadWhenClickNavMenu -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.HomeTest@46f5f779]" name="tearDown" is-config="true" duration-ms="719" started-at="2018-07-26T09:47:01Z" finished-at="2018-07-26T09:47:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:test.HomeTest@46f5f779]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-07-26T09:47:01Z" finished-at="2018-07-26T09:47:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:test.HomeTest@46f5f779]" name="tearDownClass" is-config="true" duration-ms="0" started-at="2018-07-26T09:47:02Z" finished-at="2018-07-26T09:47:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- test.HomeTest -->
+    </test> <!-- RemoteDriver -->
+  </suite> <!-- AutomationTraining -->
+</testng-results>

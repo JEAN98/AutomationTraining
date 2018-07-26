@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="AutomationTraining">
+   <parameter name="browser" value="firefox"/>
+   <parameter name="startURL" value="http://192.168.0.103:86/"/>
+   <parameter name="driverType" value="remotedriver"/>
+   
+    <test name="RemoteDriver">
+        <classes>
+            <class name="test.RegisterTest"/>
+            <class name="test.LoginTest"/>
+            <class name="test.HomeTest"/>
+       </classes>
+    </test>
+</suite>

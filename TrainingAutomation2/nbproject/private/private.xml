@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/jvega-as/Documents/GitHub/TrainingAutomation/TrainingAutomation2/test/xmfiles/Grid.xml</file>
+            <file>file:/C:/Users/jvega-as/Documents/GitHub/TrainingAutomation/TrainingAutomation2/test/xmfiles/Config1.xml</file>
+            <file>file:/C:/Users/jvega-as/Documents/GitHub/TrainingAutomation/TrainingAutomation2/test/test/PostAnAdTest.java</file>
+            <file>file:/C:/Users/jvega-as/Documents/GitHub/TrainingAutomation/TrainingAutomation2/test/page/MyAdsProfilePage.java</file>
+            <file>file:/C:/Users/jvega-as/Documents/GitHub/TrainingAutomation/TrainingAutomation2/test/jsonFiles/PersonRegister.json</file>
+            <file>file:/C:/Users/jvega-as/Documents/GitHub/TrainingAutomation/TrainingAutomation2/test/test/RegisterTest.java</file>
+            <file>file:/C:/Users/jvega-as/Documents/GitHub/TrainingAutomation/TrainingAutomation2/test/utilities/JsonHelper.java</file>
+            <file>file:/C:/Users/jvega-as/Documents/GitHub/TrainingAutomation/TrainingAutomation2/test/utilities/RemoteDriver.java</file>
+            <file>file:/C:/Users/jvega-as/Documents/GitHub/TrainingAutomation/TrainingAutomation2/test/page/RegisterPage.java</file>
+            <file>file:/C:/Users/jvega-as/Documents/GitHub/TrainingAutomation/TrainingAutomation2/test/page/BrowseCategoriesPage.java</file>
+            <file>file:/C:/Users/jvega-as/Documents/GitHub/TrainingAutomation/TrainingAutomation2/test/entities/PersonRegister.java</file>
+            <file>file:/C:/Users/jvega-as/Documents/GitHub/TrainingAutomation/TrainingAutomation2/test/base/BaseTest.java</file>
+            <file>file:/C:/Users/jvega-as/Documents/GitHub/TrainingAutomation/TrainingAutomation2/test/utilities/IDriver.java</file>
+            <file>file:/C:/Users/jvega-as/Documents/GitHub/TrainingAutomation/TrainingAutomation2/test/test/HomeTest.java</file>
+            <file>file:/C:/Users/jvega-as/Documents/GitHub/TrainingAutomation/TrainingAutomation2/test/dataProvider/RegisterDataProvider.java</file>
+            <file>file:/C:/Users/jvega-as/Documents/GitHub/TrainingAutomation/TrainingAutomation2/test/page/HomePage.java</file>
+            <file>file:/C:/Users/jvega-as/Documents/GitHub/TrainingAutomation/TrainingAutomation2/test/base/BasePage.java</file>
+            <file>file:/C:/Users/jvega-as/Documents/GitHub/TrainingAutomation/TrainingAutomation2/test/test/BrowseCategoriesTest.java</file>
+            <file>file:/C:/Users/jvega-as/Documents/GitHub/TrainingAutomation/TrainingAutomation2/test/utilities/DriverHelper.java</file>
+            <file>file:/C:/Users/jvega-as/Documents/GitHub/TrainingAutomation/TrainingAutomation2/test/page/NavigationPage.java</file>
+            <file>file:/C:/Users/jvega-as/Documents/GitHub/TrainingAutomation/TrainingAutomation2/test/page/PostAnAdPage.java</file>
+            <file>file:/C:/Users/jvega-as/Documents/GitHub/TrainingAutomation/TrainingAutomation2/test/utilities/LocalDriver.java</file>
+            <file>file:/C:/Users/jvega-as/Documents/GitHub/TrainingAutomation/TrainingAutomation2/test/utilities/Globals.java</file>
+        </group>
+    </open-files>
+</project-private>
