@@ -1,4 +1,6 @@
 # AutomationTraining
+-Java
+-SeleniumWebDriver
 -POM
 -TestNG
 -Test cases with localDriver
