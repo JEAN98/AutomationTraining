@@ -3,8 +3,8 @@
 -SeleniumWebDriver
 -POM
 -TestNG
--Test cases with localDriver
--Test cases with remoteDriver
+-LocalDriver
+-RemoteDriver
 -DataProviders
 -PageFactory
 -NavigationPage
