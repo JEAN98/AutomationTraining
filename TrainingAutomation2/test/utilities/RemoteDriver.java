@@ -34,8 +34,8 @@ public class RemoteDriver implements IDriver{
      try{
         DesiredCapabilities capability = DesiredCapabilities.firefox();
         capability.setBrowserName(this.browser.toLowerCase());
-        capability.setPlatform(getPlatform()); //get platform according to globla variables
-        URL url=new URL(Globals.hubeNode);  //get hubenode according to globla variables
+        capability.setPlatform(getPlatform()); //get platform according to global variables
+        URL url=new URL(Globals.hubeNode);  //get hubenode according to global variables
         this.driver =  new RemoteWebDriver(url,capability);
         this.driver.get(this.baseURL);
      }
